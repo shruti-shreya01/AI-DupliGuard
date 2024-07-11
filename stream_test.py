@@ -55,8 +55,10 @@ st.set_page_config(layout="wide")
 st.title("AI DupliGuard")
 text_area = st.text_area("Enter text", "")
 
-if text_area is not None:
-    if st.button("Analyze"):
+if st.button("Analyze"):
+    if text_area.strip() == "":
+        st.warning("Please enter some text to analyze.")
+    else:
         col1, col2, col3 = st.columns([1, 1, 1])
         
         with col1:
