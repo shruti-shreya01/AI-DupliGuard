@@ -2,6 +2,6 @@ nltk
 streamlit
 matplotlib
 torch
-sentenepiece
+sentencepiece
 transformers
 plotly
