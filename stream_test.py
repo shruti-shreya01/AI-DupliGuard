@@ -56,7 +56,7 @@ def highlight_ai_generated(text, threshold_perplexity=30000, threshold_burstines
 
 st.set_page_config(layout="wide")
 
-st.title("AI Plagiarism Guard")
+st.title("AI DupliGuard")
 text_area = st.text_area("Enter text", "")
 
 if text_area is not None:
