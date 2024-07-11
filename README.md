@@ -1,3 +1,5 @@
+# AI DupliGuard
+
 AI DupliGuard is an advanced AI-powered tool designed to detect plagiarism in text and highlight AI-generated content. It utilizes state-of-the-art natural language processing techniques to analyze text for similarities and identify sections that are likely produced by AI models. This tool is particularly useful for researchers, educators, and content creators to ensure originality and authenticity in written content.
 
 ## Features
