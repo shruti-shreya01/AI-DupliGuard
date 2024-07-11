@@ -56,7 +56,7 @@ def plot_top_repeated_words(text):
 
 st.set_page_config(layout="wide")
 
-st.title("GPT Shield: AI Plagiarism Detector")
+st.title("AI Plagiarism Guard")
 text_area = st.text_area("Enter text", "")
 
 if text_area is not None:
