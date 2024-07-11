@@ -35,13 +35,7 @@ def calculate_burstiness(text):
     burstiness_score = repeated_count / len(word_freq)
     return burstiness_score
 
-def calculate_ngram_features(text):
-    tokens = nltk.word_tokenize(text.lower())
-    bigrams = list(ngrams(tokens, 2))
-    trigrams = list(ngrams(tokens, 3))
-    bigram_freq = FreqDist(bigrams)
-    trigram_freq = FreqDist(trigrams)
-    return bigram_freq, trigram_freq
+
 
 def plot_top_repeated_words(text):
     # Tokenize the text and remove stopwords and special characters
