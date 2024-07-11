@@ -34,7 +34,7 @@ pip install -r requirements.txt
 streamlit run stream_test.py
 ```
 OR
-Click (AI DupliGuard) ['https://ai-dupliguard-8lxd5bdudktobfy32c3m7d.streamlit.app/']
+Click [AI DupliGuard](https://ai-dupliguard-8lxd5bdudktobfy32c3m7d.streamlit.app/)
 
 2. Enter or upload the text you want to analyze.
 3. Click on the "Analyze" button to detect plagiarism and highlight AI-generated content if any.
