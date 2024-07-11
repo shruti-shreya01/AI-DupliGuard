@@ -33,8 +33,14 @@ pip install -r requirements.txt
 ```bash
 streamlit run stream_test.py
 ```
+OR
+Click (AI DupliGuard) ['https://ai-dupliguard-8lxd5bdudktobfy32c3m7d.streamlit.app/']
+
 2. Enter or upload the text you want to analyze.
 3. Click on the "Analyze" button to detect plagiarism and highlight AI-generated content if any.
+
+## Disclaimer
+AI plagiarism detector apps can assist in identifying potential instances of plagiarism; however, it is important to note that their results may not be entirely flawless or completely reliable. These tools employ advanced algorithms, but they can still produce false positives or false negatives. Therefore, it is recommended to use AI plagiarism detectors as a supplementary tool alongside human judgment and manual verification for accurate and comprehensive plagiarism detection.
 
 ## Contributing
 
